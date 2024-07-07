@@ -1,0 +1,52 @@
+.text-center {
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.info-canal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-Lside-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-Rside-container {
+  display: flex;
+
+}
+
+.info-video {
+  padding: 10px;
+}
+
+.video {
+  min-width: 100%;
+  min-height: 500px
+}
+
+.descripcion-video {
+
+}
+
+.main-container {
+  display: flex;
+}
+
+.info-miniatura {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-userC-container {
+  display: flex;
+}
+
+.comment-container {
+  display: flex;
+}
