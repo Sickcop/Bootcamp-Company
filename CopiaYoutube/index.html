@@ -5,21 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hackers caen en NUESTRA TRAMPA: ¡Robamos sus herramientas!</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" type="image/x-icon">
 </head>
 <body>
   <header>
     <nav>
-      <img src="https://www.urbanarbolismo.es/blog/wp-content/uploads/2008/08/youtube-logo-1-3.png" alt="logo-youtube" width="300px">
+      <a href="https://www.youtube.com"><img src="https://1000marcas.net/wp-content/uploads/2020/02/YouTube-logo-600x338.png" alt="logo-youtube" width="300px"></a>
     </nav>
     <form action="https://www.youtube.com/results" method="get">
       <input type="text" placeholder="Search on youtube" name="search_query">
-      <button type="submit">Search</button>
+      <button type="submit">
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </button>
     </form>
+    <div>
+      <img src="https://yt3.ggpht.com/jXDS57vh5hhYaaE0OUDWysFK2cA6qSjT00AE1g5TXPX3PLptbWY3_wnJ5P2NuTBTDwNXSiHxAQ=s88-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
+    </div>
   </header>
   <article class="main-container">
     <main>
-      <section >
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/ai4NOayfddg?si=RYDDGyhJsawbk-cr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <section>
+        <iframe class="video" src="https://www.youtube.com/embed/ai4NOayfddg?si=RYDDGyhJsawbk-cr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
       <section class="info-video">
         <h1>Hackers caen en NUESTRA TRAMPA: ¡Robamos sus herramientas!</h1>
@@ -28,11 +37,19 @@
             <img src="https://yt3.ggpht.com/jXDS57vh5hhYaaE0OUDWysFK2cA6qSjT00AE1g5TXPX3PLptbWY3_wnJ5P2NuTBTDwNXSiHxAQ=s88-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
             <h3><a href="https://www.youtube.com/@s4vitar">s4vitar</a></h3>
             <button>suscribirte</button>
-           </div>
+          </div>
           <div class="btn-Rside-container">
-            <div>
-              <button>like</button>
-              <button>dislike</button>
+            <div class="like-container">
+              <button class="btn-like">
+                <span class="material-symbols-outlined">
+                  thumb_up
+                </span>
+              </button>
+              <button class="btn-dislike">
+                <span class="material-symbols-outlined">
+                  thumb_down
+                </span>
+              </button>
             </div>
             <button>compartir</button>
             <button>...</button>
@@ -40,11 +57,13 @@
         </div>
         <div class="descripcion-video">
           <small>1,8 M de visualizaciones · hace 1 año · #Office2021 #Keysfan #Windowskey</small>
+          <br>
           <p>
             ¡Gran venta de primavera de Keysfan! Licencias originales de por vida 100% seguras!
           </p>
           <br>
-          <p>
+          <span class="dots">...</span>
+          <p class="extra">
             66% de descuento Código de cupón:【S4V66】
             MS Office 2019 Pro 23€: https://bit.ly/3SEIFuJ
             MS Office 2021 Pro 25€: https://bit.ly/38tmIOs
@@ -54,7 +73,6 @@
             Windows 10 Pro (2 PC) 12€: https://bit.ly/3NFYL5u
             Windows 11 Pro 13€: https://bit.ly/39WAEkg
             Más: https://es.keysfan.com/spring-sale-s4...
-          <br>
           <br>
             Patrocinado por - Keysfan.com
           <br>
@@ -92,51 +110,77 @@
           <br>
             #Honeypots #Hackers #parati #Keysfan #Windows10 #Windows11 #Office2021 #Windowskey #SpringSale  
           </p>
+          <input type="checkbox" id="btn">
+          <label for="btn"></label>
         </div>
       </section>
       <section>
         <h3>Comentarios</h3>
         <article class="comment-container">
-          <img src="https://yt3.ggpht.com/jXDS57vh5hhYaaE0OUDWysFK2cA6qSjT00AE1g5TXPX3PLptbWY3_wnJ5P2NuTBTDwNXSiHxAQ=s88-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
+          <img src="https://yt3.googleusercontent.com/Y8Rd6fwaXJxyAbv-CLNe7Orn3dPI5prlQUkgYriLEPLMr9V7gHvxENMaUGKFuohkhjxMD0ktZQ=s900-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
           <div>
             <div class="info-userC-container">
-              <strong>@richarporrom1619</strong>
+              <strong>@ginxu</strong>
               <time datetime="2024-07-04">07/04/2024</time>
             </div>
             <p>Ya soy un hombre de 46 años, YouTube me sugirió tu vídeo y me interesó, pero me he dado cuenta que no tengo ni idea de este mundo, me parece muy fascinante pero la verdad casi no entendí nada, me sentí un total ignorante jajajaja pues entiendo que son hackers que quieren atacar sistemas vulnerables pero la terminología y los procesos la verdad no los entiendo del todo, seguiré viendo tu canal para aprender sobre todos estos temas. Excelente video sigue así!!</p> 
             <div class="btn-comment">
-              <button>like</button>
-              <button>dislike</button>
+              <button>
+                <span class="material-symbols-outlined">
+                  thumb_up
+                </span>
+              </button>
+              <button>
+                <span class="material-symbols-outlined">
+                  thumb_down
+                </span>
+              </button>
               <button>responder</button>
             </div>
           </div>
         </article>
         <article class="comment-container">
-          <img src="https://yt3.ggpht.com/jXDS57vh5hhYaaE0OUDWysFK2cA6qSjT00AE1g5TXPX3PLptbWY3_wnJ5P2NuTBTDwNXSiHxAQ=s88-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
+          <img src="https://yt3.googleusercontent.com/Z69fhRL9_OaXsDz-XsCUe2sGIqU7G1F5Mwl0PwlBsx_ll13K0nLb47q7_RMen7NHvzMVDgd2=s900-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
           <div>
             <div class="info-userC-container">
-              <strong>@kitesurfmareny</strong>
+              <strong>@holamundo</strong>
               <time datetime="2024-07-04">07/04/2024</time>
             </div>
             <p>6:32 El password "7ujMko0admin" dibuja una V en el teclado antes de la palabra "admin", es una password a partir de un patrón de teclado.</p> 
             <div class="btn-comment">
-              <button>like</button>
-              <button>dislike</button>
+              <button>
+                <span class="material-symbols-outlined">
+                  thumb_up
+                </span>
+              </button>
+              <button>
+                <span class="material-symbols-outlined">
+                  thumb_down
+                </span>
+              </button>
               <button>responder</button>
             </div>
           </div>
         </article>
         <article class="comment-container">
-          <img src="https://yt3.ggpht.com/jXDS57vh5hhYaaE0OUDWysFK2cA6qSjT00AE1g5TXPX3PLptbWY3_wnJ5P2NuTBTDwNXSiHxAQ=s88-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
+          <img src="https://yt3.googleusercontent.com/ytc/AIdro_kv84TB3x0uLWcJwfLWDX0rA9R_r22ckPwvpWxsS5x29eE=s900-c-k-c0x00ffffff-no-rj" alt="foto-de-perfil">
           <div>
             <div class="info-userC-container">
-              <strong>@Ariel1Dominguez</strong>
+              <strong>@mindudev</strong>
               <time datetime="2024-07-04">07/04/2024</time>
             </div>
             <p>"Permito la manipulación para saber donde mi enemigo quiere llevarme. Luego uso mi mente para romper la trampa y castigar a los perpetradores"</p> 
             <div class="btn-comment">
-              <button>like</button>
-              <button>dislike</button>
+              <button>
+                <span class="material-symbols-outlined">
+                  thumb_up
+                </span>
+              </button>
+              <button>
+                <span class="material-symbols-outlined">
+                  thumb_down
+                </span>
+              </button>
               <button>responder</button>
             </div>
           </div>

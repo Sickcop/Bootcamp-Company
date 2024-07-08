@@ -9,33 +9,27 @@
 .info-canal {
   display: flex;
   justify-content: space-between;
-}
-
-.btn-Lside-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn-Rside-container {
-  display: flex;
-
+  padding: 1em 0 1em 0;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  gap: 10px;
 }
 
 .info-video {
   padding: 10px;
 }
 
-.video {
-  min-width: 100%;
-  min-height: 500px
-}
-
 .descripcion-video {
-
+  background-color: var(--third-color);
+  border-radius: 10px;
+  padding: 1em;
 }
 
 .main-container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .info-miniatura {
@@ -49,4 +43,16 @@
 
 .comment-container {
   display: flex;
+  align-items: center;
 }
+
+.comment-container div {
+  padding: .5em;
+}
+
+.extra { 
+  display: none;
+}
+
+
+
